@@ -1,0 +1,52 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+  <group android:scaleX="0.75"
+      android:scaleY="0.75"
+      android:translateX="13.5"
+      android:translateY="13.5">
+
+      <!-- Outer soft glow ring — r=28 -->
+      <path
+          android:strokeColor="#FFFFFF"
+          android:strokeWidth="4"
+          android:strokeAlpha="0.15"
+          android:fillColor="@android:color/transparent"
+          android:pathData="M54,26 a28,28 0 1,1 0,56 a28,28 0 1,1 0,-56" />
+
+      <!-- Inner sharper glow ring — r=28 -->
+      <path
+          android:strokeColor="#FFFFFF"
+          android:strokeWidth="2.5"
+          android:strokeAlpha="0.25"
+          android:fillColor="@android:color/transparent"
+          android:pathData="M54,26 a28,28 0 1,1 0,56 a28,28 0 1,1 0,-56" />
+
+      <!-- Main visible ring — r=28 -->
+      <path
+          android:strokeColor="#FFFFFF"
+          android:strokeWidth="1.8"
+          android:fillColor="@android:color/transparent"
+          android:pathData="M54,26 a28,28 0 1,1 0,56 a28,28 0 1,1 0,-56" />
+
+      <!-- Outer soft glow fill — r=10, correct: top=(54,44), dy=20 ✓ -->
+      <path
+          android:fillColor="#FFFFFF"
+          android:fillAlpha="0.08"
+          android:pathData="M54,44 a10,10 0 1,1 0,20 a10,10 0 1,1 0,-20" />
+
+      <!-- Mid glow fill — r=8, correct: top=(54,46), dy=16 ✓ -->
+      <path
+          android:fillColor="#FFFFFF"
+          android:fillAlpha="0.12"
+          android:pathData="M54,46 a8,8 0 1,1 0,16 a8,8 0 1,1 0,-16" />
+
+      <!-- Center dot — r=6, correct: top=(54,48), dy=12 ✓ -->
+      <path
+          android:fillColor="#FFFFFF"
+          android:pathData="M54,48 a6,6 0 1,1 0,12 a6,6 0 1,1 0,-12" />
+
+  </group>
+</vector>

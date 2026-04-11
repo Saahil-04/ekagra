@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Deeper achievement purple for the done slide -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:type="linear"
+        android:angle="150"
+        android:startColor="#7060C0"
+        android:centerColor="#5A4DA8"
+        android:endColor="#3D3280" />
+</shape>

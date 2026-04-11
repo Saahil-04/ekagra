@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">Ekagra</string>
+    <string name="app_tagline">DM-only Instagram</string>
+
+    <!-- Accessibility -->
+    <string name="accessibility_service_label">Ekagra Focus Service</string>
+    <string name="accessibility_service_description">Ekagra monitors Instagram to redirect you away from Reels and Explore, keeping your experience focused on Direct Messages.</string>
+
+    <!-- Screens -->
+    <string name="main_title">Focus Mode</string>
+
+    <!-- Status -->
+    <string name="status_enabled">Blocking active</string>
+    <string name="status_disabled">Protection off</string>
+    <string name="a11y_enabled">Accessibility service enabled</string>
+    <string name="a11y_disabled">Accessibility service required</string>
+    <string name="a11y_cta">Open Settings</string>
+
+    <!-- Focus toggle card -->
+    <string name="focus_mode_label">Focus Mode</string>
+    <string name="focus_mode_subtitle">Block Reels &amp; Explore</string>
+    <string name="focus_on_detail">Instagram Reels and Explore are blocked.\nYou\'ll be redirected to DMs automatically.</string>
+    <string name="focus_off_detail">Toggle focus mode to start blocking\ndistractions on Instagram.</string>
+
+    <!-- Buttons -->
+    <string name="btn_battery_opt">Disable Battery Optimization</string>
+    <string name="btn_enable_a11y">Enable in Settings</string>
+
+    <!-- Sections screen -->
+    <string name="sections_subtitle">Changes take effect immediately</string>
+    <string name="keywords_prefix">Keywords: </string>
+
+    <!-- Snackbars -->
+    <string name="snack_focus_on">Focus mode activated</string>
+    <string name="snack_focus_off">Focus mode deactivated</string>
+    <string name="snack_a11y_required">Please enable the Accessibility Service first</string>
+    <string name="snack_a11y_hint">Find \'Ekagra\' and enable it</string>
+    <string name="snack_battery_hint">Select \'Don\'t optimize\' to prevent interruptions</string>
+    <string name="snack_action_settings">Open Settings</string>
+
+    <!-- Setup steps (used in old main screen — kept for backwards compat) -->
+    <string name="step_1_label">Enable Accessibility Service</string>
+    <string name="step_1_desc">Allows Ekagra to detect and redirect distracting Instagram sections.</string>
+    <string name="step_2_label">Disable Battery Optimization</string>
+    <string name="step_2_desc">Prevents Android from killing the service in the background.</string>
+    <string name="step_3_label">Enable Focus Mode</string>
+
+    <!-- Notification -->
+    <string name="notif_channel_name">Ekagra Active</string>
+    <string name="notif_channel_desc">Ekagra is monitoring for distractions</string>
+    <string name="notif_title">Ekagra Active</string>
+    <string name="notif_body">Blocking Instagram distractions</string>
+
+    <!-- Content descriptions -->
+    <string name="cd_logo">Ekagra logo</string>
+    <string name="cd_theme_toggle">Toggle dark/light theme</string>
+    <string name="cd_status_indicator">Focus mode status</string>
+
+
+    <!-- ONBOARDING STRINGS (NEW)                                           -->
+
+
+    <!-- Slide 1 — Welcome -->
+    <string name="onboard_welcome_tagline">Stay focused.\nDMs only. No Reels, no Explore.</string>
+    <string name="onboard_welcome_cta">Get Started</string>
+
+    <!-- Slide 2 — How it works -->
+    <string name="onboard_how_title">How It Works</string>
+    <string name="onboard_how_feature1_title">Blocks Reels &amp; Explore</string>
+    <string name="onboard_how_feature1_desc">Ekagra detects when you open Reels or Explore and redirects you out instantly.</string>
+    <string name="onboard_how_feature2_title">Redirects You to DMs</string>
+    <string name="onboard_how_feature2_desc">Every redirect lands you in Direct Messages — the only place worth your time on Instagram.</string>
+
+    <!-- Shared next button -->
+    <string name="onboard_next">Continue</string>
+
+    <!-- Slide 3 — Permissions -->
+    <string name="onboard_perm_title">Grant Permissions</string>
+    <string name="onboard_perm_subtitle">All three are required for Ekagra to work reliably. You cannot proceed until each is granted.</string>
+    <string name="onboard_perm_a11y_label">Accessibility Service</string>
+    <string name="onboard_perm_a11y_desc">Lets Ekagra detect and redirect distracting Instagram screens in real time.</string>
+    <string name="onboard_perm_overlay_label">Draw Over Other Apps</string>
+    <string name="onboard_perm_overlay_desc">Required to show the cooldown screen on top of Instagram when you get redirected.</string>
+    <string name="onboard_perm_battery_label">Disable Battery Optimization</string>
+    <string name="onboard_perm_battery_desc">Prevents Android from killing the monitoring service while Instagram is running in the background.</string>
+    <string name="onboard_perm_open_settings">Open Settings</string>
+
+    <!-- Slide 4 — Done -->
+    <string name="onboard_done_title">You\'re now\nin control.</string>
+    <string name="onboard_done_sub">Reels and Explore are blocked.\nYour DMs are waiting.</string>
+    <string name="onboard_done_cta">Let\'s Start</string>
+
+
+    <!-- REDESIGNED MAIN SCREEN STRINGS (NEW)                               -->
+
+
+    <string name="toggle_label_only_dm">Only DM Mode</string>
+    <string name="toggle_sublabel">Blocks Reels &amp; Explore on Instagram</string>
+    <string name="blocking_status_active">Currently Blocking: Reels, Explore</string>
+    <string name="blocking_status_inactive">Protection is off — toggle to activate</string>
+    <string name="a11y_warning_tap_to_fix">⚠  Accessibility service is disabled — tap to fix</string>
+
+
+    <!-- SETTINGS SCREEN STRINGS                                            -->
+
+
+    <string name="settings_title">Settings</string>
+    <string name="cd_settings">Open settings</string>
+    <string name="cd_back">Navigate back</string>
+
+    <!-- Sections -->
+    <string name="settings_section_appearance">Appearance</string>
+
+    <!-- Theme setting -->
+    <string name="settings_theme_title">Theme</string>
+    <string name="settings_theme_subtitle">Choose your preferred colour scheme</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_system">System Default</string>
+
+</resources>

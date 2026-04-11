@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSurface">
+
+    <!-- Top label -->
+    <TextView
+        android:id="@+id/tvTopLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FOCUSGUARD"
+        android:textSize="11sp"
+        android:letterSpacing="0.15"
+        android:textStyle="bold"
+        android:textColor="?attr/colorPrimary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="56dp" />
+
+    <!-- Center content group -->
+    <LinearLayout
+        android:id="@+id/centerGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/btnGoToDMs"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Big countdown number -->
+        <TextView
+            android:id="@+id/tvTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:textSize="96sp"
+            android:textStyle="bold"
+            android:letterSpacing="-0.04"
+            android:textColor="?attr/colorOnSurface"
+            android:layout_marginBottom="20dp" />
+
+        <ImageView
+            android:id="@+id/ivDone"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:visibility="gone"
+            android:src="@drawable/baseline_check_24"
+            app:tint="?attr/colorPrimary" />
+
+        <!-- Message -->
+        <TextView
+            android:id="@+id/tvMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take a breath."
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:letterSpacing="-0.01"
+            android:textColor="?attr/colorOnSurface"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Sub message -->
+        <TextView
+            android:id="@+id/tvSubMessage"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:text="You were heading into a distraction.\nYour DMs are waiting."
+            android:textSize="14sp"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.5" />
+
+    </LinearLayout>
+
+    <!-- Bottom button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnGoToDMs"
+        style="@style/Widget.Ekagra.Button"
+        android:layout_width="0dp"
+        android:layout_height="56dp"
+        android:text="Go to DMs"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginBottom="48dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

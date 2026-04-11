@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  BRAND PALETTE — Ekagra v3
+         Seed: Lavender/Purple family  +  Warm Cream surface -->
+
+    <!-- Primary — Lavender/Purple tone scale -->
+    <color name="brand_primary_0">#FFFFFF</color>
+    <color name="brand_primary_10">#E9E0FF</color>   <!-- light lavender tint -->
+    <color name="brand_primary_20">#D4BBFF</color>
+    <color name="brand_primary_30">#BEADFA</color>   <!-- brand lavender seed -->
+    <color name="brand_primary_40">#A08BE6</color>
+    <color name="brand_primary_50">#8A72D4</color>
+    <color name="brand_primary_60">#7060C0</color>
+    <color name="brand_primary_70">#5A4DA8</color>
+    <color name="brand_primary_80">#3D3280</color>
+    <color name="brand_primary_90">#21005D</color>   <!-- deep purple for on-colors -->
+    <color name="brand_primary_100">#000000</color>
+
+    <!-- Secondary — Softer lavender -->
+    <color name="brand_secondary_0">#FFFFFF</color>
+    <color name="brand_secondary_10">#EDE7FF</color>
+    <color name="brand_secondary_20">#D0BFFF</color>  <!-- brand secondary seed -->
+    <color name="brand_secondary_30">#B8A5F5</color>
+    <color name="brand_secondary_40">#9E8CE0</color>
+    <color name="brand_secondary_50">#8070C8</color>
+    <color name="brand_secondary_60">#6454B0</color>
+    <color name="brand_secondary_70">#4A3A90</color>
+    <color name="brand_secondary_100">#000000</color>
+
+    <!-- Neutral — Warm grey (shifted slightly purple) -->
+    <color name="neutral_0">#FFFFFF</color>
+    <color name="neutral_4">#FFF3DA</color>           <!-- BRAND CREAM (background/surface) -->
+    <color name="neutral_6">#F5EDD0</color>
+    <color name="neutral_10">#EDE5D4</color>
+    <color name="neutral_12">#E4DCF0</color>
+    <color name="neutral_17">#CABFD8</color>
+    <color name="neutral_22">#B0A4C0</color>
+    <color name="neutral_24">#A89AB8</color>
+    <color name="neutral_30">#7E6E90</color>
+    <color name="neutral_40">#5C4F6A</color>
+    <color name="neutral_50">#49454F</color>
+    <color name="neutral_60">#37323E</color>
+    <color name="neutral_70">#282333</color>
+    <color name="neutral_80">#1C1B1F</color>
+    <color name="neutral_87">#141219</color>
+    <color name="neutral_90">#0F0D13</color>
+    <color name="neutral_95">#08060C</color>
+    <color name="neutral_100">#000000</color>
+
+    <!-- LIGHT THEME ROLES  (Material 3)-->
+    <color name="md_theme_light_primary">#BEADFA</color>
+    <color name="md_theme_light_onPrimary">#21005D</color>
+    <color name="md_theme_light_primaryContainer">#E9E0FF</color>
+    <color name="md_theme_light_onPrimaryContainer">#21005D</color>
+
+    <color name="md_theme_light_secondary">#D0BFFF</color>
+    <color name="md_theme_light_onSecondary">#1D0066</color>
+    <color name="md_theme_light_secondaryContainer">#EDE7FF</color>
+    <color name="md_theme_light_onSecondaryContainer">#1D0066</color>
+
+    <color name="md_theme_light_tertiary">#DFCCFB</color>
+    <color name="md_theme_light_onTertiary">#2B1152</color>
+    <color name="md_theme_light_tertiaryContainer">#F3EEFF</color>
+    <color name="md_theme_light_onTertiaryContainer">#2B1152</color>
+
+    <color name="md_theme_light_error">#BA1A1A</color>
+    <color name="md_theme_light_onError">#FFFFFF</color>
+    <color name="md_theme_light_errorContainer">#FFDAD6</color>
+    <color name="md_theme_light_onErrorContainer">#410002</color>
+
+    <color name="md_theme_light_background">#FFF3DA</color>
+    <color name="md_theme_light_onBackground">#1C1B1E</color>
+
+    <color name="md_theme_light_surface">#FFF3DA</color>
+    <color name="md_theme_light_onSurface">#1C1B1E</color>
+    <color name="md_theme_light_surfaceVariant">#EDE7FF</color>
+    <color name="md_theme_light_onSurfaceVariant">#49454F</color>
+
+    <color name="md_theme_light_outline">#7D757F</color>
+    <color name="md_theme_light_outlineVariant">#CAC4CF</color>
+
+    <color name="md_theme_light_inverseSurface">@color/neutral_70</color>
+    <color name="md_theme_light_inverseOnSurface">@color/neutral_10</color>
+    <color name="md_theme_light_inversePrimary">@color/brand_primary_30</color>
+
+    <color name="md_theme_light_surfaceTint">#BEADFA</color>
+    <color name="md_theme_light_scrim">#000000</color>
+    <color name="md_theme_light_shadow">#000000</color>
+
+    <!--DARK THEME ROLES  (Material 3)-->
+    <color name="md_theme_dark_primary">#CFC0FF</color>
+    <color name="md_theme_dark_onPrimary">#380E72</color>
+    <color name="md_theme_dark_primaryContainer">#4F378B</color>
+    <color name="md_theme_dark_onPrimaryContainer">#EADDFF</color>
+
+    <color name="md_theme_dark_secondary">#CEC0FF</color>
+    <color name="md_theme_dark_onSecondary">#33226A</color>
+    <color name="md_theme_dark_secondaryContainer">#4A3880</color>
+    <color name="md_theme_dark_onSecondaryContainer">#E7DEFF</color>
+
+    <color name="md_theme_dark_tertiary">#EEBCFF</color>
+    <color name="md_theme_dark_onTertiary">#44126A</color>
+    <color name="md_theme_dark_tertiaryContainer">#5E2980</color>
+    <color name="md_theme_dark_onTertiaryContainer">#FDDCFF</color>
+
+    <color name="md_theme_dark_error">#FFB4AB</color>
+    <color name="md_theme_dark_onError">#690005</color>
+    <color name="md_theme_dark_errorContainer">#93000A</color>
+    <color name="md_theme_dark_onErrorContainer">#FFDAD6</color>
+
+    <color name="md_theme_dark_background">@color/neutral_87</color>
+    <color name="md_theme_dark_onBackground">@color/neutral_10</color>
+
+    <color name="md_theme_dark_surface">@color/neutral_87</color>
+    <color name="md_theme_dark_onSurface">@color/neutral_10</color>
+    <color name="md_theme_dark_surfaceVariant">@color/neutral_60</color>
+    <color name="md_theme_dark_onSurfaceVariant">@color/neutral_17</color>
+
+    <color name="md_theme_dark_outline">@color/neutral_40</color>
+    <color name="md_theme_dark_outlineVariant">@color/neutral_60</color>
+
+    <color name="md_theme_dark_inverseSurface">@color/neutral_10</color>
+    <color name="md_theme_dark_inverseOnSurface">@color/neutral_80</color>
+    <color name="md_theme_dark_inversePrimary">#BEADFA</color>
+
+    <color name="md_theme_dark_surfaceTint">#CFC0FF</color>
+    <color name="md_theme_dark_scrim">#000000</color>
+    <color name="md_theme_dark_shadow">#000000</color>
+
+    <!-- SEMANTIC ALIASES  (light defaults; dark overrides in values-night) -->
+    <color name="status_active_bg">#EDE7FF</color>
+    <color name="status_active_fg">@color/brand_primary_70</color>
+    <color name="status_active_dot">@color/brand_primary_50</color>
+
+    <color name="status_inactive_bg">#F2ECFF</color>
+    <color name="status_inactive_fg">@color/neutral_50</color>
+
+    <color name="status_success">#2E7D32</color>
+    <color name="status_error">#C62828</color>
+    <color name="status_warning">#E65100</color>
+
+    <color name="step_done_bg">@color/brand_primary_10</color>
+    <color name="step_done_fg">@color/brand_primary_60</color>
+    <color name="step_pending_bg">#ECEFF1</color>
+    <color name="step_pending_fg">@color/neutral_40</color>
+
+</resources>

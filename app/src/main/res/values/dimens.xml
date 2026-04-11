@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Screen padding -->
+    <dimen name="screen_margin">20dp</dimen>
+    <dimen name="screen_margin_top">24dp</dimen>
+
+    <!-- Card -->
+    <dimen name="card_radius">20dp</dimen>
+    <dimen name="card_padding">20dp</dimen>
+    <dimen name="card_gap">12dp</dimen>
+
+    <!-- Header -->
+    <dimen name="header_logo_size">48dp</dimen>
+    <dimen name="header_title_size">30sp</dimen>
+    <dimen name="header_sub_size">14sp</dimen>
+
+    <!-- Status pill -->
+    <dimen name="status_dot_size">8dp</dimen>
+    <dimen name="status_pill_padding_h">14dp</dimen>
+    <dimen name="status_pill_padding_v">6dp</dimen>
+
+    <!-- Section item -->
+    <dimen name="section_item_padding_v">14dp</dimen>
+
+    <!-- Step indicator -->
+    <dimen name="step_icon_size">40dp</dimen>
+    <dimen name="step_icon_radius">12dp</dimen>
+
+    <!-- Elevation -->
+    <dimen name="card_elevation">0dp</dimen>
+    <dimen name="bottom_bar_elevation">8dp</dimen>
+</resources>

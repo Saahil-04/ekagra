@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Semantic aliases — dark theme overrides -->
+    <color name="status_active_bg">#2A1E4A</color>
+    <color name="status_active_fg">#CFC0FF</color>
+    <color name="status_active_dot">#A08BE6</color>
+
+    <color name="status_inactive_bg">#1E1A2B</color>
+    <color name="status_inactive_fg">#A89AB8</color>
+
+    <color name="status_success">#81C784</color>
+    <color name="status_error">#EF9A9A</color>
+    <color name="status_warning">#FFB74D</color>
+
+    <color name="step_done_bg">#2A1E4A</color>
+    <color name="step_done_fg">#CFC0FF</color>
+    <color name="step_pending_bg">#1E1A2B</color>
+    <color name="step_pending_fg">#7E6E90</color>
+</resources>
